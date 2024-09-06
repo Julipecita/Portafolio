@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Juliana Perez</title>
+    <!-- Bootstrap CSS -->
+     <link  href="./bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.css" rel="stylesheet">
+    <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- Custom CSS -->
+    <style>
+        .bg-dark-custom {
+            background-color: #343a40;
+        }
+
+        .bg-gradient-custom {
+            background: linear-gradient(135deg, #f5f5f5, #c0c0c0);
+        }
+
+        .section-padding {
+            padding: 60px 0;
+        }
+
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .social-links a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        .social-links a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .navbar-nav {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="bg-dark-custom text-white">
+        <nav class="navbar navbar-expand-lg navbar-dark container">
+            <a class="navbar-brand" href="#">MiLogo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tecnologias">Tecnologías</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portafolio">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sobre mí -->
+    <section id="sobre-mi" class="bg-gradient-custom section-padding">
+        <div class="container text-center">
+            <img src="https://via.placeholder.com/300" alt="Foto de perfil" class="img-fluid rounded-circle mb-4">
+            <h2>Sobre mí</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula erat sit amet ante blandit, ac tempus mauris cursus. Integer euismod turpis sed metus dictum, id fringilla lorem luctus.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula erat sit amet ante blandit, ac tempus mauris cursus. Integer euismod turpis sed metus dictum, id fringilla lorem luctus.</p>
+        </div>
+    </section>
+
+    <!-- Tecnologías que domino -->
+    <section id="tecnologias" class="bg-dark-custom text-white section-padding">
+        <div class="container">
+            <h2 class="text-center mb-4">Tecnologías que domino</h2>
+            <div class="row text-center">
+                <div class="col-6 col-md-2 mb-3">
+                    <img src="https://via.placeholder.com/100x100" alt="HTML" class="img-fluid">
+                    <p>HTML</p>
+                </div>
+                <div class="col-6 col-md-2 mb-3">
+                    <img src="https://via.placeholder.com/100x100" alt="CSS" class="img-fluid">
+                    <p>CSS</p>
+                </div>
+                <div class="col-6 col-md-2 mb-3">
+                    <img src="https://via.placeholder.com/100x100" alt="JavaScript" class="img-fluid">
+                    <p>JavaScript</p>
+                </div>
+                <div class="col-6 col-md-2 mb-3">
+                    <img src="https://via.placeholder.com/100x100" alt="React" class="img-fluid">
+                    <p>React</p>
+                </div>
+                <div class="col-6 col-md-2 mb-3">
+                    <img src="https://via.placeholder.com/100x100" alt="MySQL" class="img-fluid">
+                    <p>MySQL</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mi portafolio de productos -->
+    <section id="portafolio" class="bg-gradient-custom section-padding">
+        <div class="container">
+            <h2 class="text-center mb-4">Mi portafolio de productos</h2>
+            <div class="row">
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200" alt="Producto 1" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto 1</h5>
+                            <p class="card-text">Descripción breve del producto 1.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200" alt="Producto 2" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto 2</h5>
+                            <p class="card-text">Descripción breve del producto 2.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200" alt="Producto 3" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto 3</h5>
+                            <p class="card-text">Descripción breve del producto 3.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200" alt="Producto 4" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto 4</h5>
+                            <p class="card-text">Descripción breve del producto 4.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200" alt="Producto 5" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto 5</h5>
+                            <p class="card-text">Descripción breve del producto 5.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200" alt="Producto 6" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto 6</h5>
+                            <p class="card-text">Descripción breve del producto 6.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario de contacto -->
+    <section id="contacto" class="bg-dark-custom text-white section-padding">
+        <div class="container">
+            <h2 class="text-center mb-4">Contacto</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+                </div>
+                <div class="mb-3">
+                    <label for="correo" class="form-label">Correo electrónico</label>
+                    <input type="email" class="form-control" id="correo" placeholder="Tu correo electrónico">
+                </div>
+                <div class="mb-3">
+                    <label for="telefono" class="form-label">Número celular</label>
+                    <input type="tel" class="form-control" id="telefono" placeholder="Tu número celular">
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark-custom text-white text-center py-4">
+        <p>&copy; 2024 Juliana Perez</p>
+        <div class="social-links">
+            <a href="#">LinkedIn</a> | 
+            <a href="#">GitHub</a> | 
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+     <script src="./bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
